@@ -1,0 +1,101 @@
+
+body{
+  
+}
+
+nav{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #ff890c;
+  
+}
+
+#nav-bar a{
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  font-family: "Amatic SC";
+  font-size: 30px;
+}
+
+#navbar a:hover{
+  color: #545454;
+}
+
+
+#welcome-section{
+  height: 100vh;
+  background-color:#fcb853;
+  padding-top: 40px;
+  
+}
+
+#johnherron{
+  text-align: center;
+  font-size: 50px;
+  margin-right: 600px;
+  font-family: "Amatic SC";
+}
+
+#about{
+  font-family: "Droid Serif";
+  text-align: center;
+}
+
+#projects-header{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Amatic SC";
+  margin-right: 600px;
+}
+
+#project-squares{
+  display:flex;
+  justify-content: center;
+  font-family: "Amatic SC";
+  font-size: 30px;
+  text-align: center;
+}
+
+.project-tile{
+  padding: 20px;
+  border: solid 1px;
+  border-color:#ff890c;
+
+}
+
+.portfolio-image{
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#contact-icons{
+  display:flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+#contact-icons i{
+  padding: 0px 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar a {
+    text-align: center;
+  }
+  
+   body {
+    background-color: lightblue;
+  }
+  
+  #flex-container {
+  display: flex;
+  flex-direction: column;
+}
